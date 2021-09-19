@@ -15,7 +15,7 @@ struct TimerView: View {
     
     var body: some View {
         Text("\(timeRemaining)")
-            .font(.system(size: 90, design: .rounded))
+            .font(.system(size: 60, design: .rounded))
             .padding()
             .onReceive(timer) { _ in
                 if timeRemaining > 0 {
